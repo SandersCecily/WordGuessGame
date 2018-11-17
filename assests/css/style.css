@@ -20,6 +20,22 @@ p {
     color: #35032B;
  }
 
+ button {
+     position: absolute;
+     margin: 1em;
+     background-color: #31896A;
+     color: white;
+     border: none;
+     border-radius: 12px;
+     font-size: 2em;
+     font-family: 'Pacifico', cursive;
+     box-shadow: 2px 4.5px #999;
+ }
+
+ button:active {
+     transform: translateY(4px);
+ }
+
  .main {
      margin: 0 auto;
      width: 75%;
@@ -33,14 +49,16 @@ p {
     top: 1em; 
     left: 6em;
     width: 75%; 
-    height: 65%;  
+    height: 70%;  
     opacity: .7; 
     z-index: -1;
     background-image: url("../images/green_cup/green_cup.png");
+    display: inline-block;
 }
 
 .target p {
     text-align: center;
     color: #0A194C;
     font-size: 250%;
+
 }
