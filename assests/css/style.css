@@ -1,0 +1,16 @@
+body {
+    background-image: url("../images/coffeebeanbackground.jpeg");
+}
+h1 {
+    font-size: 400%; 
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 
+}
+p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 150%;
+    letter-spacing: 3px;
+    line-height: 2;
+ }
