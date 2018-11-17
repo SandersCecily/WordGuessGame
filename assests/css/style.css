@@ -1,16 +1,46 @@
 body {
-    background-image: url("../images/coffeebeanbackground.jpeg");
+    background-image: url("../images/coffeebeanbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     font-size: 400%; 
     font-family: 'Pacifico', cursive;
     text-align: center;
     letter-spacing: 3px;
-    text-shadow: 
+    line-height: 1em;
+    margin-bottom: .5em;
+    color: #56391D;
 }
 p {
     font-family: 'Roboto', sans-serif; 
     font-size: 150%;
     letter-spacing: 3px;
-    line-height: 2;
+    line-height: 2em;
+    color: #35032B;
  }
+
+ .main {
+     margin: 0 auto;
+     width: 75%;
+     padding: 3em;
+     z-index: 1;
+ }
+ 
+ .main:before {
+    content: " ";
+    position: absolute;
+    top: 1em; 
+    left: 6em;
+    width: 75%; 
+    height: 65%;  
+    opacity: .7; 
+    z-index: -1;
+    background-image: url("../images/green_cup/green_cup.png");
+}
+
+.target p {
+    text-align: center;
+    color: #0A194C;
+    font-size: 250%;
+}
