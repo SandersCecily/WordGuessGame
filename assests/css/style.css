@@ -37,7 +37,7 @@ p {
  }
  
  button:disabled{
-     background-color: #7D7D7D;
+     visibility: hidden;
  }
 
  .main {
@@ -60,7 +60,7 @@ p {
     display: inline-block;
 }
 
-.targetme p {
+.targetme {
     text-align: center;
     color: #0A194C;
     font-size: 250%;
