@@ -35,6 +35,10 @@ p {
  button:active {
      transform: translateY(4x);
  }
+ 
+ button:disabled{
+     background-color: #7D7D7D;
+ }
 
  .main {
      margin: 0 auto;
